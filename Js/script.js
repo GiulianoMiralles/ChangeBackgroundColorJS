@@ -1,6 +1,6 @@
 //Declaracion de variables globales
 
-let btnChange = document.getElementById('btn-change')            // Obtengo el ID del boton en el DOM
+let Change = document.getElementById('btn-change')            // Obtengo el ID del boton en el DOM
 
 let body = document.getElementById('body')                 //Obtengo el ID del body
 
@@ -13,4 +13,4 @@ const change = () => {
 };
 
 // Declaracion eventos
-btnChange.addEventListener('click', change);
+Change.addEventListener('click', change);
