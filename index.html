@@ -12,32 +12,28 @@
 <body id="body">
     <br>
     <hr>
-        <h1 class="display-4 text-center"> Change color background JS </h1>
+        <h1 class="display-4 text-center" id="h1"> Change color background JS </h1>
     <hr>
 
 
 
     <div id="formulario">
-        <h3>Seleccione el color que desee</h3>
+        <h3 id="h3">Seleccione el color que desee</h3>
         <br>
         <form>
             <div class="form-group">
-                <input type="radio" id="color" name="color" value="red">
-                <label for="color">Rojo</label>  
+                <input type="radio" id="color" name="color" value="#ffffff">
+                <label for="color" id="label">Predetermined</label>  
             </div>
             <div class="form-group">
-                <input type="radio" id="color" name="color" value="blue">
-                <label for="color">Azul</label>
+                <input type="radio" id="color" name="color" value="#12202a">
+                <label for="color" id="label2">Clear night</label>
             </div>
             <div class="form-group">
-                <input type="radio" id="color" name="color" value="green">
-                <label for="color">Verde</label>  
+                <input type="radio" id="color" name="color" value="#000000">
+                <label for="color" id="label3">Dark night</label>  
             </div>
-            <div class="form-group">
-                <input type="radio" id="color" name="color" value="orange">
-                <label for="color">Naranja</label>  
-            </div>
-            <button type="button" id="btn-change" class="btn btn-primary">Cambiar</button>
+            <button type="button" id="btn-change" class="btn btn-primary">Change</button>
         </form>
     </div>
 
